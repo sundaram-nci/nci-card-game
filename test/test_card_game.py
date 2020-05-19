@@ -1,10 +1,6 @@
 import pytest
 
 
-from nci.card_game import CardGame as CG
-
-
-
 def test_shuffle_deck(card_game):
     """Test the shuffle_deck method
     """
